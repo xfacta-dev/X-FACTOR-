@@ -9,7 +9,7 @@ cmd({
     alias: ["allmenu","fullmenu"],use: '.menu2',
     desc: "menu the bot",
     category: "menu",
-    react: "⚡",
+    react: "🔥",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃★│ Type : *NodeJs*
 ┃★│ Platform : *Heroku*
 ┃★│ Mode : *[${config.MODE}]*
-┃★│ Prifix : *[${config.PREFIX}]*
+┃★│ Prefix : *[${config.PREFIX}]*
 ┃★│ Version : *3.0.0 Bᴇᴛᴀ*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
