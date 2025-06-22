@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/xfacta-dev/X-FACTOR-/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://github.com/xfacta-dev/X-FACTOR-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
