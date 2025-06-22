@@ -81,7 +81,7 @@ cmd({
     store.react('⬇️');
     let tiktokData = await downloadTiktok(q);
     let captionMessage = 
-      "╭━━━〔 *POPKID* 〕━━━┈⊷\n" +
+      "╭━━━〔 *XFACTA* 〕━━━┈⊷\n" +
       "┃▸╭───────────\n" +
       "┃▸┃๏ *TIKTOK DOWNLOADER*\n" +
       "┃▸└───────────···๏\n" +
@@ -133,12 +133,12 @@ cmd({
         if (userResponse === '1') {
           await conn.sendMessage(chatID, {
             'video': { 'url': downloadLinks.dl_link.download_mp4_1 },
-            'caption': "*© Powered By Popkid*"
+            'caption': "*© Powered By Xfacta*"
           }, { 'quoted': receivedMessage });
         } else if (userResponse === '2') {
           await conn.sendMessage(chatID, {
             'video': { 'url': downloadLinks.dl_link.download_mp4_2 },
-            'caption': "*© Powered BY Popkid*"
+            'caption': "*© Powered BY Xfacta*"
           }, { 'quoted': receivedMessage });
         } else if (userResponse === '3') {
           await conn.sendMessage(chatID, {
@@ -476,7 +476,7 @@ cmd({
 ┃ 📅 *Updated On:* ${app.updated}
 ┃ 👨‍💻 *Developer:* ${app.developer.name}
 ╰━━━━━━━━━━━━━━━┈⊷
-🔗 *Powered By Popkid*`;
+🔗 *Powered By xfacta*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -527,7 +527,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "*© Powered By Popkid*"
+        caption: "*© Powered By xfacta*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
