@@ -35,7 +35,7 @@ async (conn, mek, m, { from, prefix, quoted, q, reply }) => {
 
         // Success response
         const pairingCode = pair.code;
-        const doneMessage = "> *POPKID PAIR COMPLETED*";
+        const doneMessage = "> *XFACTA PAIR IS COMPLETED*";
 
         // Send first message
         await reply(`${doneMessage}\n\n*Your pairing code is:* ${pairingCode}`);
