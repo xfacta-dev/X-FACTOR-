@@ -11,7 +11,7 @@ cmd({
     filename: __filename,
 },
 async (conn, mek, m, { from, reply }) => {
-    const githubRepoURL = 'https://github.com/Popkiddevs/POPKID-BMX';
+    const githubRepoURL = 'https://github.com/xfacta-dev/X-FACTOR-';
 
     try {
         // Extract username and repo name from the URL
@@ -27,7 +27,7 @@ async (conn, mek, m, { from, reply }) => {
         const repoData = await response.json();
 
         // Format the repository information
-        const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By Popkid 🖤*`;
+        const formattedInfo = `*BOT NAME:*\n> ${repoData.name}\n\n*OWNER NAME:*\n> ${repoData.owner.login}\n\n*STARS:*\n> ${repoData.stargazers_count}\n\n*FORKS:*\n> ${repoData.forks_count}\n\n*GITHUB LINK:*\n> ${repoData.html_url}\n\n*DESCRIPTION:*\n> ${repoData.description || 'No description'}\n\n*Don't Forget To Star and Fork Repository*\n\n> *© Powered By xfacta-dev🖤*`;
 
         // Send an image with the formatted info as a caption and context info
         await conn.sendMessage(from, {
@@ -39,7 +39,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'Popkid',
+                    newsletterName: 'xfacta',
                     serverMessageId: 143
                 }
             }
@@ -47,7 +47,7 @@ async (conn, mek, m, { from, reply }) => {
 
         // Send the audio file with context info
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/Popkiddevs/POPKID-DATA/raw/refs/heads/main/autovoice/repo.m4a' },
+            audio: { url: 'https://github.com/xfacta-dev/X-FACTOR-/raw/refs/heads/main/autovoice/repo.m4a' },
             mimetype: 'audio/mp4',
             ptt: true,
             contextInfo: { 
@@ -56,7 +56,7 @@ async (conn, mek, m, { from, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363354023106228@newsletter',
-                    newsletterName: 'Popkid',
+                    newsletterName: 'xfacta',
                     serverMessageId: 143
                 }
             }
