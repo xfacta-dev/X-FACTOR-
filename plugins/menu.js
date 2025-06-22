@@ -57,7 +57,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -67,7 +67,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         // Send audio
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/Popkiddevs/POPKID-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
+            audio: { url: 'https://github.com/xfacta-dev/X-FACTOR-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
@@ -130,7 +130,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 144
                     }
                 }
@@ -213,7 +213,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -291,7 +291,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -358,7 +358,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -429,7 +429,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -481,7 +481,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -540,7 +540,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -601,7 +601,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -670,7 +670,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
@@ -729,7 +729,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363354023106228@newsletter',
-                        newsletterName: 'Popkid',
+                        newsletterName: 'xfacta',
                         serverMessageId: 143
                     }
                 }
